@@ -1,0 +1,126 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: aahoma, Arial, Helvetica, sans-serif;
+}
+.formatacao {
+  width: 1024px;
+  margin: 30px auto;
+}
+
+.header-top {
+  position: relative;
+  height: 50px;
+  background: #162028;
+}
+
+.logotipo {
+  margin: 5px 0 0 135px;
+}
+.header-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.header-nav a:hover {
+  transition: 0.2s;
+  color: white;
+}
+.header-nav a {
+  color: #425564;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+}
+.header-nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px 0 0;
+  padding: 15px;
+}
+
+.portifolio {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.portifolio h2 {
+  font-size: 36px;
+  color: #252525;
+}
+
+.portifolio p {
+  font-size: 16px;
+  line-height: 2;
+  color: #555;
+}
+.gallery {
+  padding: 0 100px 50px 100px;
+  color: #555;
+  overflow: auto;
+}
+.gallery-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.gallery-card {
+  width: 32%;
+  float: left;
+  text-align: center;
+}
+
+.corpo2 {
+  background-color: #003d52;
+  padding: 100px;
+  color: white;
+  background-image: url(../imagens/bg_detalhe.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.corpo2 h1 {
+  font-weight: normal;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.corpo2 p {
+  line-height: 1.5;
+  width: 70%;
+}
+.contato {
+  margin: 50px 0 50px 0;
+}
+.contato h3 {
+  color: #143f52;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.mapa iframe {
+  width: 100%;
+}
+.mapa {
+  width: 100%;
+  height: 450px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.rodape {
+  background: #0b171f;
+  padding: 20px;
+  font-size: 15px;
+  color: #6f8597;
+  letter-spacing: 5px;
+  text-align: center;
+}
